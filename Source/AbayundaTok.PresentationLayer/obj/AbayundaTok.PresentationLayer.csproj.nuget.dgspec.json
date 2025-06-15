@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dobrynya\\Desktop\\VKR\\AT\\Source\\AbayundaTok.PresentationLayer\\AbayundaTok.PresentationLayer.csproj": {}
+    "C:\\Users\\Dobrynya\\Desktop\\VKR\\AbayundaTokWithDocker\\Source\\AbayundaTok.PresentationLayer\\AbayundaTok.PresentationLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dobrynya\\Desktop\\VKR\\AT\\Source\\AbayundaTok.BLL\\AbayundaTok.BLL.csproj": {
+    "C:\\Users\\Dobrynya\\Desktop\\VKR\\AbayundaTokWithDocker\\Source\\AbayundaTok.BLL\\AbayundaTok.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AT\\Source\\AbayundaTok.BLL\\AbayundaTok.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AbayundaTokWithDocker\\Source\\AbayundaTok.BLL\\AbayundaTok.BLL.csproj",
         "projectName": "AbayundaTok.BLL",
-        "projectPath": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AT\\Source\\AbayundaTok.BLL\\AbayundaTok.BLL.csproj",
+        "projectPath": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AbayundaTokWithDocker\\Source\\AbayundaTok.BLL\\AbayundaTok.BLL.csproj",
         "packagesPath": "C:\\Users\\Dobrynya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AT\\Source\\AbayundaTok.BLL\\obj\\",
+        "outputPath": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AbayundaTokWithDocker\\Source\\AbayundaTok.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dobrynya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Dobrynya\\Desktop\\VKR\\AT\\Source\\AbayundaTok.DAL\\AbayundaTok.DAL.csproj": {
-                "projectPath": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AT\\Source\\AbayundaTok.DAL\\AbayundaTok.DAL.csproj"
+              "C:\\Users\\Dobrynya\\Desktop\\VKR\\AbayundaTokWithDocker\\Source\\AbayundaTok.DAL\\AbayundaTok.DAL.csproj": {
+                "projectPath": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AbayundaTokWithDocker\\Source\\AbayundaTok.DAL\\AbayundaTok.DAL.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "C:\\Users\\Dobrynya\\Desktop\\VKR\\AT\\Source\\AbayundaTok.DAL\\AbayundaTok.DAL.csproj": {
+    "C:\\Users\\Dobrynya\\Desktop\\VKR\\AbayundaTokWithDocker\\Source\\AbayundaTok.DAL\\AbayundaTok.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AT\\Source\\AbayundaTok.DAL\\AbayundaTok.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AbayundaTokWithDocker\\Source\\AbayundaTok.DAL\\AbayundaTok.DAL.csproj",
         "projectName": "AbayundaTok.DAL",
-        "projectPath": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AT\\Source\\AbayundaTok.DAL\\AbayundaTok.DAL.csproj",
+        "projectPath": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AbayundaTokWithDocker\\Source\\AbayundaTok.DAL\\AbayundaTok.DAL.csproj",
         "packagesPath": "C:\\Users\\Dobrynya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AT\\Source\\AbayundaTok.DAL\\obj\\",
+        "outputPath": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AbayundaTokWithDocker\\Source\\AbayundaTok.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dobrynya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -184,14 +184,14 @@
         }
       }
     },
-    "C:\\Users\\Dobrynya\\Desktop\\VKR\\AT\\Source\\AbayundaTok.PresentationLayer\\AbayundaTok.PresentationLayer.csproj": {
+    "C:\\Users\\Dobrynya\\Desktop\\VKR\\AbayundaTokWithDocker\\Source\\AbayundaTok.PresentationLayer\\AbayundaTok.PresentationLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AT\\Source\\AbayundaTok.PresentationLayer\\AbayundaTok.PresentationLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AbayundaTokWithDocker\\Source\\AbayundaTok.PresentationLayer\\AbayundaTok.PresentationLayer.csproj",
         "projectName": "AbayundaTok.PresentationLayer",
-        "projectPath": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AT\\Source\\AbayundaTok.PresentationLayer\\AbayundaTok.PresentationLayer.csproj",
+        "projectPath": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AbayundaTokWithDocker\\Source\\AbayundaTok.PresentationLayer\\AbayundaTok.PresentationLayer.csproj",
         "packagesPath": "C:\\Users\\Dobrynya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AT\\Source\\AbayundaTok.PresentationLayer\\obj\\",
+        "outputPath": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AbayundaTokWithDocker\\Source\\AbayundaTok.PresentationLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dobrynya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -209,8 +209,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Dobrynya\\Desktop\\VKR\\AT\\Source\\AbayundaTok.BLL\\AbayundaTok.BLL.csproj": {
-                "projectPath": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AT\\Source\\AbayundaTok.BLL\\AbayundaTok.BLL.csproj"
+              "C:\\Users\\Dobrynya\\Desktop\\VKR\\AbayundaTokWithDocker\\Source\\AbayundaTok.BLL\\AbayundaTok.BLL.csproj": {
+                "projectPath": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AbayundaTokWithDocker\\Source\\AbayundaTok.BLL\\AbayundaTok.BLL.csproj"
               }
             }
           }

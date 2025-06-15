@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dobrynya\\Desktop\\VKR\\AT\\Source\\AbayundaTok.DAL\\AbayundaTok.DAL.csproj": {}
+    "C:\\Users\\Dobrynya\\Desktop\\VKR\\AbayundaTokWithDocker\\Source\\AbayundaTok.DAL\\AbayundaTok.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dobrynya\\Desktop\\VKR\\AT\\Source\\AbayundaTok.DAL\\AbayundaTok.DAL.csproj": {
+    "C:\\Users\\Dobrynya\\Desktop\\VKR\\AbayundaTokWithDocker\\Source\\AbayundaTok.DAL\\AbayundaTok.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AT\\Source\\AbayundaTok.DAL\\AbayundaTok.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AbayundaTokWithDocker\\Source\\AbayundaTok.DAL\\AbayundaTok.DAL.csproj",
         "projectName": "AbayundaTok.DAL",
-        "projectPath": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AT\\Source\\AbayundaTok.DAL\\AbayundaTok.DAL.csproj",
+        "projectPath": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AbayundaTokWithDocker\\Source\\AbayundaTok.DAL\\AbayundaTok.DAL.csproj",
         "packagesPath": "C:\\Users\\Dobrynya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AT\\Source\\AbayundaTok.DAL\\obj\\",
+        "outputPath": "C:\\Users\\Dobrynya\\Desktop\\VKR\\AbayundaTokWithDocker\\Source\\AbayundaTok.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dobrynya\\AppData\\Roaming\\NuGet\\NuGet.Config",
