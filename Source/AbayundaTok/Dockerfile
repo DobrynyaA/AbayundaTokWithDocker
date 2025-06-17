@@ -14,7 +14,7 @@ ENV ASPNETCORE_Kestrel__Endpoints__Http__Protocols=Http1AndHttp2
 ENV ASPNETCORE_Kestrel__Endpoints__Http__UseHttps=false
 
 # Отключаем HTTPS
-RUN dotnet dev-certs https --clean
+#RUN dotnet dev-certs https --clean
 
 RUN apt-get update && \
     apt-get install -y ffmpeg && \
