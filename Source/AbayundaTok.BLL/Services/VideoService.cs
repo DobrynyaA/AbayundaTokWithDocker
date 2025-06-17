@@ -30,18 +30,74 @@ namespace AbayundaTok.BLL.Services
 
         private async Task EnsureBucketExistsAsync()
         {
-            var exists = await _minioClient.BucketExistsAsync(
-                new BucketExistsArgs().WithBucket(BucketName)
-            );
+            //var exists = await _minioClient.BucketExistsAsync(
+            //    new BucketExistsArgs().WithBucket(BucketName)
+            //);
 
-            if (!exists)
-                await _minioClient.MakeBucketAsync(
-                    new MakeBucketArgs().WithBucket(BucketName)
-                );
+            //if (!exists)
+            //    await _minioClient.MakeBucketAsync(
+            //        new MakeBucketArgs().WithBucket(BucketName)
+            //    );
+            var bucketName = "videos";
+            var found = await _minioClient.BucketExistsAsync(new BucketExistsArgs().WithBucket(bucketName));
+            if (!found)
+            {
+                await _minioClient.MakeBucketAsync(new MakeBucketArgs().WithBucket(bucketName));
+
+                var policy = new
+                {
+                    Version = "2012-10-17",
+                    Statement = new[]
+                    {
+                        new
+                        {
+                            Effect = "Allow",
+                            Principal = "*",
+                            Action = new[] { "s3:GetObject" },
+                            Resource = new[] { $"arn:aws:s3:::{bucketName}/*" }
+                        }
+                    }
+                };
+
+                await _minioClient.SetPolicyAsync(new SetPolicyArgs()
+                    .WithBucket(bucketName)
+                    .WithPolicy(JsonSerializer.Serialize(policy)));
+            }
+        }
+
+        private async Task EnsureAvatarsBucketExistsAsync()
+        {
+
+            var bucketName = "avatars";
+            var found = await _minioClient.BucketExistsAsync(new BucketExistsArgs().WithBucket(bucketName));
+            if (!found)
+            {
+                await _minioClient.MakeBucketAsync(new MakeBucketArgs().WithBucket(bucketName));
+
+                var policy = new
+                {
+                    Version = "2012-10-17",
+                    Statement = new[]
+                    {
+                        new
+                        {
+                            Effect = "Allow",
+                            Principal = "*",
+                            Action = new[] { "s3:GetObject" },
+                            Resource = new[] { $"arn:aws:s3:::{bucketName}/*" }
+                        }
+                    }
+                };
+
+                await _minioClient.SetPolicyAsync(new SetPolicyArgs()
+                    .WithBucket(bucketName)
+                    .WithPolicy(JsonSerializer.Serialize(policy)));
+            }
         }
 
         public async Task<Video> UploadVideoAsync(IFormFile file,string description, string userId)
         {
+            await EnsureAvatarsBucketExistsAsync();
             await EnsureBucketExistsAsync();
             await EnsureThumbnailBucketExistsAsync();
 
