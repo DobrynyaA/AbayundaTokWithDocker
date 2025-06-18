@@ -9,7 +9,7 @@ namespace AbayundaTok.DAL.Constants
 {
     public class URL
     {
-        public const string Url = "http://195.80.238.77:9000";
+        public const string Url = "http://185.23.236.118:9000";
         public const string MyIpV4Url = "http://192.168.0.101:9000";
     }
 }
